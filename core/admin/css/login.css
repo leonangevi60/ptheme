@@ -1,0 +1,98 @@
+body {
+    background: #f2f2f2;
+}
+
+#login {
+    /*background: rgba(255,255,255,0.5) !important;*/
+    background: #fff;
+    box-shadow: 0 1px 3px;
+    border-radius: 10px;
+    margin-top: 8%;
+    padding: 20px 0px 10px 0px;
+    box-shadow: 0 5px 10px 0px;
+    -moz-box-shadow: 0 5px 10px 0px;
+    -webkit-box-shadow: 0 5px 10px 0px;
+    -o-box-shadow: 0 5px 10px 0px;
+    -ms-box-shadow: 0 5px 10px 0px
+}
+
+#login h1 a,
+.login h1 a {
+    background-image: url("./logo.png");
+    height: 90px;
+    width: 160px;
+    background-size: 160px 90px;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#login h1 a:focus {
+    outline: unset;
+    box-shadow: unset;
+}
+.login form {
+    background: none;
+    border: 0px;
+    box-shadow: unset;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+.login form input[type=text],
+.login form input[type=password] {
+    padding: 0px 10px;
+    line-height: 40px;
+    box-shadow: unset;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    background: none;
+    margin: 0px;
+}
+
+.login form input[type=password] {
+    margin-bottom: 15px;
+}
+
+.login label[for=user_login],
+.login label[for=user_pass] {
+    display: inline-block;
+    text-indent: -9999999px;
+}
+
+.login .button-primary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #4489dd;
+    padding: 10px 20px;
+    background: -moz-linear-gradient(
+        top,
+        #ffffff 0%,
+        #ffffff 50%,
+        #b5b5b5);
+    background: -webkit-gradient(
+        linear, left top, left bottom,
+        from(#ffffff),
+        color-stop(0.50, #ffffff),
+        to(#b5b5b5));
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #4489dd;
+    -moz-box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 3px rgba(255,255,255,1);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 3px rgba(255,255,255,1);
+    box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 3px rgba(255,255,255,1);
+    text-shadow:
+        0px -1px 0px rgba(000,000,000,0.2),
+        0px 1px 0px rgba(255,255,255,1);
+}
+
+.login #login_error, .login .message, .login .success{
+    margin-bottom: 0px;
+}
