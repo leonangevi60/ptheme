@@ -15,6 +15,7 @@ $opt_name = apply_filters( 'redux_demo/opt_name', $opt_name );
  * --> Used within different fields. Simply examples. Search for ACTUAL DECLARATION for field examples
  *
  */
+//Check info
 $sampleHTML = '';
 if ( file_exists( dirname( __FILE__ ) . '/info-html.html' ) ) {
     Redux_Functions::initWpFilesystem();
